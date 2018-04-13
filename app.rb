@@ -22,7 +22,7 @@ end
 
   get '/multiply/:num1/:num2' do
     @answer = (params[:num1]) * (params[:num2])
-    "@answer"
+    "#{@answer}"
   end
 
 end
